@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My spoti / Bad Bunny - Formulario</title>
+</head>
+
+<body align="center" bgcolor="c5e9fe">
+
+    <h1>Formulario de inscripción</h1>
+
+    <section >
+
+        <form action="recepcion.php" method="GET">
+
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Introduce tu nombre"><br><br>
+
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id="apellidos" name="apellidos" placeholder="Introduce tus apellidos"><br><br>
+
+            <label for="edad">Edad:</label>
+            <input type="text" id="edad" name="edad" placeholder="introduce tu edad"><br><br>
+
+            <label for="pais">País:</label>
+            <select id="pais" name="pais">
+                <option value="">Selecciona un país</option>
+                <option value="españa">España</option>
+                <option value="eeuu">EE.UU</option>
+                <option value="argentina">Argentina</option>
+                <option value="puero rico">Puerto Rico</option>
+                <option value="belgica">Belgica</option>
+                <option value="berlin">Berlín</option>
+                <option value="canada">Canadá</option>
+                <option value="chipre">Chipre</option>
+                <option value="costa rica">Costa Rica</option>
+                <option value="finlandia">Finlandia</option>
+            </select><br><br>
+
+            <label for="correo">Correo electronico:</label>
+            <input type="text" id="correo" name="correo" placeholder="Correo electronico"><br><br>
+            
+            <fieldset>
+            
+                <legend>Intereses musicales</legend>
+                <label for="blues">Blues:</label>
+                <input type="checkbox" id="blues" name="Intereses musicales" value="blues"><br>
+        
+                <label for="metal">Metal:</label>
+                <input type="checkbox" id="metal" name="Intereses musicales" value="metal"><br>
+        
+                <label for="reggaeton">Reggaeton:</label>
+                <input type="checkbox" id="reggaeton" name="Intereses musicales" value="reggaeton"><br>
+
+                <label for="house">House:</label>
+                <input type="checkbox" id="house" name="Intereses musicales" value="house"><br>
+
+                <label for="trap">Trap:</label>
+                <input type="checkbox" id="trap" name="Intereses musicales" value="trap"><br>
+
+                <label for="flamenco">Flamenco:</label>
+                <input type="checkbox" id="flamenco" name="Intereses musicales" value="flamenco"><br>
+
+            </fieldset><br><br>
+
+            <button type="submit">Enviar datos</button>
+
+        </form>
+
+        <br>
+        <br>
+        <br>
+
+
+        <a href="../index.html">Volver al index</a>
+        <br>
+        <a href="../Discografia/discografia.html">Discografia</a>
+
+    </section>
+    
+</body>
+
+</html>
